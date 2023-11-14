@@ -1,0 +1,78 @@
+#stories {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background-repeat: no-repeat;
+    background-image: url(../img/stories-bg.svg);
+    background-position: left top;
+}
+.stories__title {
+    color: #fff;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 56px;
+    max-width: 932px;
+    margin-left: auto;
+    margin-right: auto;
+    & span {
+        color: #79c8c7;
+    }
+}
+.stories__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.stories__item {
+    max-width: 350px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-image: url(../img/stories.svg);
+    background-position: center top;
+}
+.stories__text {
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-bottom: 24px;
+    padding-top: 36px;
+}
+.stories__username {
+    color: #79c8c7;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+.stories__userjob {
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 18px;
+}
+.stories__users {
+    margin-bottom: 32px;
+    padding-bottom: 11px;
+}
+.stories__userimg {
+    width: 62px;
+    height: 62px;
+    position: absolute;
+    left: 144px;
+    top: 223px;
+}
+@media screen and (max-width: 1080px) {
+    .stories__list {
+        flex-direction: column;
+        text-align: center;
+    }
+    .stories__item {
+        margin-bottom: 45px;
+        width: 100%;
+    }
+}
